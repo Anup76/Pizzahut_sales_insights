@@ -1,5 +1,12 @@
--- Retrieve the total number of orders placed.
 
+CREATE DATABASE pizzahut ;
+USE pizzahut;    
+
+
+--KPI'S
+
+
+-- Retrieve the total number of orders placed.
 
 SELECT 
     COUNT(order_id) AS total_orders
